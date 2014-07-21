@@ -1,0 +1,185 @@
+﻿body {
+    cursor: default;
+    font-size: 14px;
+    font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+  
+}
+ul {
+  	position: relative;
+    padding:5px;
+    font-size: 24px;
+    margin:0 auto;
+}
+
+li  { 
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 0 0 7px 0;
+    font-size: 18px;
+    color: #333;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid #C6E9E3;
+    border-left: 5px solid #FD8E56;
+    background-color: #F8FFFE;
+    text-align: left;
+}
+
+#main, #additional_info { 
+    border: 2px solid #C6E9E3;
+    border-radius: 2px;
+	background-color: #EFFFFB;
+	width:350px; 
+	padding:5px;
+    font-size: 20px;
+	display: inline-block;
+	text-align:center;
+	margin: 10px;
+	height: 370px;
+	
+	} 
+#additional_info {
+    position:absolute;
+	background-color: #EFFFFB;
+    top: 8x; 
+	display: none;
+}
+input {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 14px;
+    margin:5px;
+    background-color: #F8FFFE;
+	display: none;
+	text-align: center;
+	
+}
+
+ 
+.output {
+    border: 2px solid #C6E9E3;
+	border-right: 5px solid #FD8E56;
+	border-radius: 2px;
+    position: relative;
+    padding:5px;
+    font-size: 14px;
+    margin:2px;
+    background-color:#F8FFFE;
+	display: inline-block;
+	width: 200px;
+}
+
+p {
+    display: inline-block;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    font-size: 20px;
+}
+.short {
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+    padding: 5px;
+    font-size: 20px;
+	}
+
+.common {
+    height: 500px;
+}
+
+#save , #back {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 20px;
+    margin:15px;
+    background-color: #C6E9E3;
+	text-align: center;
+	color: #FD8E56;
+	width: 100px;
+	display: inline-block;
+	
+}
+
+button {
+    border: 2px solid #C6E9E3;
+	border-radius: 2px;
+    padding:5px;
+    font-size: 20px;
+    margin:15px;
+    background-color: #C6E9E3;
+	text-align: center;
+	color: #FD8E56;
+	width: 250px;
+	
+}
+.header {
+    width: 300px;
+}
+
+/*
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ 
+body {
+   
+    cursor: default;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Helvetica",Garuda,Arial,sans-serif;
+}
+ul {
+     background-color: lavender;
+  	position: relative;
+    padding:5px;
+    font-size: 24px;
+    margin:0 auto;
+	display: inline-block;
+}
+
+li  { 
+display: block;
+width: 400px;
+height: 30px;
+margin: 0 0 7px 0;
+font-size: 16px;
+color: #333;
+padding: 5px;
+text-decoration: none;
+border-left: 5px solid #988CC3;
+background-color: #EFEFEF;
+}
+
+.gold { border-left: 5px solid #D8C86E; }
+
+div {
+    background-color: lavender;
+    width: 450px;
+    text-align: center;
+    padding-left:10px;
+    font-size: 20px;
+	border-radius: 2px;
+	font-family: "Helvetica",Garuda,Arial,sans-serif;
+}
+
+button {
+font-family: Garuda,Arial,sans-serif;
+font-size: 18px;
+margin: 5px;
+}
+*/

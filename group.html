@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Group</title>
+	    <link rel = "stylesheet" type = "text/css" href = "style.css"></link>
+		<script type = "text/javascript" src = "jquery-2.1.1.min.js"></script>
+		<script type = "text/javascript" src = "underscore-min.js"></script>
+		<script type = "text/javascript" src = "backbone-min.js"></script>
+		<script type = "text/javascript" src = "backbone-mediator.js"></script>
+		
+		<script type = "text/javascript" src = "StudentModel.js"></script>
+        <script type = "text/javascript" src = "GroupModel.js"> </script>
+	    <script type = "text/javascript" src = "GroupView.js"> </script>
+		<script type = "text/javascript" src = "StudentView.js"> </script>
+		<script type = "text/javascript" src = "StudentEditView.js"> </script>
+		<script type = "text/javascript" src = "NewStudentView.js"> </script>
+	    <script type = "text/javascript" src = "main.js"> </script>
+		
+		<script id = "person_input_tmp" type = "text/html">
+		    <div id = "person_input">
+			    <p class = "header">Student's info</p>
+                <div><p class = "short">Name</p><input type = "text" class = "output" id = "name"></div>
+		        <div><p class = "short">Surname</p><input type = "text" class = "output" id = "surname"></div>
+		        <div><p class = "short">Gender</p><input type = "text" class = "output" id = "gender"></div>
+		        <div><p class = "short">Birthday</p><input type = "text" class = "output" id = "birthday"></div>
+		        <div><p class = "short">Skype</p><input type = "text" class = "output" id = "skype"></div>
+		        <div><p class = "short">Group</p><input type = "text" class = "output" id = "group"></div>    
+                <button id = "back"> Back </button>  
+                 <button id = "save"> Save </button>  
+			</div>	
+		</script>	
+				
+    </head>
+    <body>
+        <div id = "main" class = "container"></div>		
+    </body>
+</html>
